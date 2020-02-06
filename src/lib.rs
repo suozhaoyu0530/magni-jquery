@@ -1,3 +1,8 @@
+#[macro_use]
+extern crate lazy_static;
+
+mod parser;
+
 #[cfg(test)]
 mod tests {
     #[test]
